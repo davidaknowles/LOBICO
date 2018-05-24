@@ -4,13 +4,13 @@ Init
 %% Load data
 
 %parse tsv
-% [Samples,Features,IC50s,MutationMatrix] = parsetsv('bibw2992.tsv');
+% [Samples,Features,IC50s,MutationMatrix] = parsetsv('data/bibw2992.tsv');
 
 %parse xls file
-% [Samples,Features,IC50s,MutationMatrix] = parsexls('bibw2992.xls');
+% [Samples,Features,IC50s,MutationMatrix] = parsexls('data/bibw2992.xls');
 
 %load matfile
-load bibw2992
+load data/bibw2992
 
 %% Create binary input, output and weight vector
 
